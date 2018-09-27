@@ -1,0 +1,1 @@
+Select bids,brand,sup_category,category,sub_category_1,sub_category_2 from wadi_catalog

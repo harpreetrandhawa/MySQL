@@ -1,0 +1,1 @@
+Select category,sum(assign_tp)assigned_total,sum(arrived_tp)arrived_total,concat(round((sum(assign_tp)-sum(arrived_tp))/sum(assign_tp)*100,2),"%") Percent_differ from tbl_seller_performance where date(arrived_at) = curdate() group by category

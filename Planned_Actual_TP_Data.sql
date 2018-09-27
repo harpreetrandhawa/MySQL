@@ -1,0 +1,1 @@
+Select item_id, category,assign_tp, arrived_tp from tbl_seller_performance where date(arrived_at) = curdate() 
